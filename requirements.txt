@@ -2,3 +2,4 @@ fastapi
 pytest
 pydantic
 python-dotenv
+ffmpeg-python
