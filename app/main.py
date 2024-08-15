@@ -36,7 +36,9 @@ app.include_router(router)
 @app.get("/")
 async def root():
     return {"message": "MP4 to WAV Converter API"}
-
+@app.route("/hola")
+def hello_world():
+    return "Hello World!"
 
 
 
