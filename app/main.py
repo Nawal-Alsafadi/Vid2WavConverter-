@@ -10,7 +10,6 @@ from importlib.metadata import PackageNotFoundError
 import os
 import sys
 
-from flask import jsonify
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from app.utils.file_utils import get_complete_new_file_name, log_download
 from app.utils.file_utils import get_complete_new_file_name
